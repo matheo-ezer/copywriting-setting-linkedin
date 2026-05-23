@@ -227,7 +227,7 @@ Tu réponds UNIQUEMENT en JSON valide, sans préambule, sans markdown.
   "message_setting_2": "Texte du message 2",
   "message_setting_3": "Texte du message 3",
   "confidence_score": 8.5,
-  "personalization_notes": "En 2 phrases : pourquoi tu as choisi cette structure, sur quel élément tu t'es appuyé."
+  "personalization_notes": "Explique directement, en 2 phrases, pourquoi tu as choisi cette structure et sur quel élément du contexte tu t'es appuyé. NE COMMENCE PAS par 'Signal =' ni aucun préfixe — va droit à l'explication."
 }
 
 ## 14. RÈGLES DE GÉNÉRATION
@@ -239,6 +239,7 @@ Tu réponds UNIQUEMENT en JSON valide, sans préambule, sans markdown.
 5. Auto-scorer (≥ 22/30 par message ou régénérer)
 6. Calculer le confidence_score global
 7. Renvoyer le JSON strict
+8. Le champ personalization_notes ne contient aucun préfixe type 'Signal =' — c'est une explication directe et fluide.
 
 ## NOTE FINALE
 
