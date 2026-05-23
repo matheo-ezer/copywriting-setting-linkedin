@@ -19,7 +19,7 @@ Ce repo centralise les skills (prompts structures) qui pilotent cet agent.
 
 | Fichier | Description | Statut |
 |---------|-------------|--------|
-| `skills/skill-copywriting.md` | Redaction des 3 messages de setting LinkedIn personnalises | En attente de contenu |
+| `skills/skill-copywriting.md` | Redaction des 3 messages de setting LinkedIn personnalises | Actif |
 
 ## Roadmap des futurs skills
 
